@@ -1,0 +1,271 @@
+@charset "utf-8";
+/* 
+    Created on : 2018/09/02
+    Author     : kuroda All rights reserved.
+    tkoo.xxxxxx@gmail.com
+*/
+
+@font-face {
+    font-family: YuGothicM;
+    src: local("Yu Gothic Medium");
+}
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 0.9em;
+    font-family: -apple-system,BlinkMacSystemFont,"Helvetica Neue","游ゴシック Medium",YuGothic,YuGothicM,"Hiragino Kaku Gothic ProN",メイリオ,Meiryo,sans-serif;
+    color: #88add2;
+    background-color: #fff0f6;
+}
+
+footer {
+    position: relative;
+    width: 950px;
+    height: 35px;
+    margin: auto;
+    margin-top: 1em;
+}
+
+h1 {
+    font-size: 3em;
+    font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+    margin-top:-0.1em; 
+}
+
+h2 {
+    font-size: 2.1em;
+    font-family: Georgia,游明朝,"Yu Mincho",YuMincho,"Hiragino Mincho ProN",HGS明朝E,メイリオ,Meiryo,serif;
+    color: #666666;
+}
+
+h3 {
+    font-size: 1.4em;
+    height: 3em;
+    margin-left: 1em;
+    padding-top: 0.3em;
+}
+
+.h3Conteiner {
+    width: auto;
+    height: 3em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #88add2;
+}
+
+.block {
+    width: 0.5em;
+    height: 3em;
+    margin: 0;
+    background-color: #88add2;
+    float: left;
+}
+
+#includeblock {
+    width: 950px;
+    height: 330px;
+    margin: auto;
+}
+
+#pageHeader {
+    display: block;
+    width: 250px;
+    margin-left: 1em;
+    margin-top: -10em;
+}
+
+#pageImage {
+    width: 720px;
+    height: 290px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+
+/*== BOX ==*/
+/* 行 コンテナ */
+.conteiner {
+    display: flex;
+    width: 950px;
+    height: auto;
+    margin: auto;
+    margin-top: 15px;
+    justify-content: space-between; 
+}
+.negativeRow {
+    margin-top: -180px;
+}
+
+.row {
+    height: 3em;
+}
+
+/* 正方形（小）:185px*185px */
+.box_ss {
+    display: block;
+    width: 185px;
+    height: 185px;
+    vertical-align: central;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    float: left;
+    float: right;
+}
+
+/* 長方形（横）:185px*376px */
+.box_sl {
+    display: block;
+    width: 376px;
+    height: 185px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    float: left;
+    float: right;
+}
+
+/* 長方形（縦）:376px*185px */
+.box_ls {
+    display: block;
+    width: 185px;
+    height: 376px;
+    vertical-align: central;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    float: left;
+    float: right;
+}
+
+/* 正方形（大）:376px*376px */
+.box_ll {
+    display: block;
+    width: 376px;
+    height: 376px;
+    vertical-align: central;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    float: left;
+    float: right;
+}
+
+/* 長方形（中）:正方形 小 * 3 */
+.box_lc {
+    display: block;
+    width: 565px;
+    vertical-align: central;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    float: left;
+    float: right;
+}
+
+/* 長方形（大）:正方形 小 * 4 */
+.box_lb {
+    display: block;
+    width: 740px;
+    vertical-align: central;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    float: left;
+    float: right;
+}
+/* 長方形（FULL）:正方形 小 * 5 */
+.box_fu {
+    display: block;
+    width: 950px;
+    vertical-align: central;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    float: left;
+    float: right;
+}
+
+._img {
+    width: 100%;
+    margin-bottom: -0.5em;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+
+._text {
+    width: auto;
+    text-align: center;
+    line-height: 1em;
+}
+
+._remark {
+    margin-top: 0.5em;
+    margin-left: 1em;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    padding-left: 1em;
+    width: 370px;
+}
+
+
+
+._article {
+    padding: 3em 0.5em 0.5em 0.5em;
+    font-size: 1.1em;
+    line-height: 1.3em;
+}
+
+._iconbox_c {
+    width: 80px;
+    float: left;
+    margin-top: 2.1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+._iconbox_t {
+    width: 80px;
+    margin: auto;
+    margin-top: 2.1em;
+}
+
+._iconbox_ct {
+    width: 80px;
+    margin: auto;
+    margin-top: 2.1em;
+}
+
+._iconbox_ff {
+    margin: auto;
+    margin-top: 1em;
+}
+
+.trs {
+    font-size: 1.2em;
+}
+
+.trs2 {
+    display: inline;
+    font-size: 1.2em;
+    margin-top: 2.1em;
+}
+
+.dd2 {
+    color: #fff;
+    font-size: 1.2em;
+    background-color: #88add2;
+}
+
+.d0d {
+    color: #fff;
+    font-size: 1.2em;
+    background-color: #d0d0d0;
+}
